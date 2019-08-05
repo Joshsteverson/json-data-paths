@@ -1,0 +1,19 @@
+{
+  "name": "json-data-paths",
+  "version": "1.0.0",
+  "description": "#### Easily extract complete paths to every property in an object. #### Created for use with [Simple Object Path](https://www.npmjs.com/package/simple-object-path) ```js const jsonDataPaths = require('./index') const obj = {animal:   {       type: 'Feline',       dailyNeeds: [           {timeOfDay: 'morning', need: 'Breakfast'},           {timeOfDay: 'evening', need: 'Dinner'}       ]   } }",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joshsteverson/json-data-paths.git"
+  },
+  "author": "JDS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joshsteverson/json-data-paths/issues"
+  },
+  "homepage": "https://github.com/Joshsteverson/json-data-paths#readme"
+}
